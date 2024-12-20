@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+  color: deepskyblue;
+}
+
+/*
+header{
+  min-height: 200px;
+}
+*/
+
+img.background-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  opacity: 0.3;
+
+
+}
+
+
+div.noce-de-cire {
+  width: 100%;
+  min-height: 150px;
+  position: absolute;
+top: 200px;
+}
+
+div.noce-de-cire p {
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+/*  min-height: 150px;*/
+
+
+/*  margin-bottom: 70px;*/
+
+
+}
+
+div.noce-de-cire p .years {
+
+  padding: 2px;
+
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+div.noce-de-cire p .wedding {
+  background-color: gray;
+  padding: 2px 25px;
+  font-family: monospace;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+
+div.noce-de-cire p .cire {
+  font-size: 50px;
+  font-weight: bold;
+  color: grey;
+  font-family: cursive;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+div.noce-de-cire p .joyeuses {
+  font-weight: bold;
+  font-family: serif;
+}

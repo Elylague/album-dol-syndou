@@ -1,0 +1,37 @@
+nav{
+  margin: 15px auto;
+}
+
+header{
+  position: relative;
+/*  background-color: rgba(135, 206, 235, .2);*/   
+  min-height: 300px;
+/*  margin-bottom: 20px;*/
+}
+
+nav .nav-bar ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+  
+  
+  
+}
+
+nav .nav-bar ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight:bold;
+  font-size: 20px;
+  border-left: 1px solid deepskyblue;
+  padding-left: 7px;
+}
+
+.active {
+  border: 1px solid deepskyblue;
+  border-radius: 10px;
+  padding: 5px;
+}

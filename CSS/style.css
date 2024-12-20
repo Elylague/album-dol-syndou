@@ -1,0 +1,200 @@
+
+
+/* cire */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+  color: deepskyblue;
+}
+
+/*
+header{
+  min-height: 200px;
+}
+*/
+
+img.background-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  opacity: 0.3;
+
+
+}
+
+
+div.noce-de-cire {
+  width: 100%;
+  min-height: 150px;
+  position: absolute;
+  top: 200px;
+}
+
+div.noce-de-cire p {
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  /*  min-height: 150px;*/
+
+
+  /*  margin-bottom: 70px;*/
+
+
+}
+
+div.noce-de-cire p .years {
+
+  padding: 2px;
+
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+div.noce-de-cire p .wedding {
+  background-color: gray;
+  padding: 2px 25px;
+  font-family: monospace;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+
+div.noce-de-cire p .cire {
+  font-size: 50px;
+  font-weight: bold;
+  color: grey;
+  font-family: cursive;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+div.noce-de-cire p .joyeuses {
+  font-weight: bold;
+  font-family: serif;
+}
+
+/* nav-bar */
+
+nav {
+  margin: 15px auto;
+}
+
+header {
+  position: relative;
+  /*  background-color: rgba(135, 206, 235, .2);*/
+  min-height: 300px;
+  /*  margin-bottom: 20px;*/
+}
+
+nav .nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+
+
+
+}
+
+nav .nav-bar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  border-left: 1px solid deepskyblue;
+  padding-left: 7px;
+}
+
+.active {
+  border: 1px solid deepskyblue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* images */
+
+main{
+
+
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+main .container{
+  height: 100%;
+  background:linear-gradient(45deg, rgba(135, 206, 235, 1), white,rgba(135, 206, 235, 1),white,rgba(135, 206, 235, 1),white,rgba(135, 206, 235, 1),white);
+}
+
+main .container .container-image img{
+
+  border: 1px solid deepskyblue;
+  object-fit: cover;
+  width: 100%;
+  min-height: 300px;
+  
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  
+}
+
+main .container div h3{
+color: grey;
+text-align: center;
+}
+main .container .container-image{
+
+  padding: 3px 8px;
+  min-height: 300px;
+  
+  
+
+}
+
+
+
+
+.hide-images{
+  display: none;
+}
+
+
+
+
+button.bouton{
+  
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgray;
+  width: 150px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 15px;
+  position:relative;
+  left: 120px;
+}
+
+
+
+
+
+
